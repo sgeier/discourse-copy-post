@@ -15,7 +15,7 @@ export default apiInitializer("0.11.1", (api) => {
     }
   }
 
-  api.decorateWidget("post-menu:extra-controls", (helper) => {
+  api.decorateWidget("post-menu:extra-post-controls", (helper) => {
     const results = [];
     results.push(helper.widget.attach("copy-widget", helper));
     return results;
